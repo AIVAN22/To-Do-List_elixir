@@ -29,8 +29,9 @@ defmodule ToDoTasks do
       end
     if data != 5 do
       loop(tasks)
+    else
+      IO.puts("Good bye")
     end
-    IO.puts("Good bye")
   end
 
   def add_task(tasks) do
